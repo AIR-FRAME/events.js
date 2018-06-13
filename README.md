@@ -1,4 +1,4 @@
-# EXAMPLE of Events.js
+# EXAMPLE of Events.js (Ultralight, just 5 lines of code)
 Trigger events from one component to another component
 
 ## TRIGGERRING FROM COMPONENT A
