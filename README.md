@@ -48,11 +48,4 @@ import Events from './events.js';
 componentDidMount = () => {
    Events.bind('flashmessage', this.fnFlashMessage);
 };
-
-
-
-
-
-
-
-
+```
