@@ -1,12 +1,9 @@
-# EXAMPLE of Events.js
 
-### Trigger events from one component to another component
-### Ultra-light code, 200 Bytes, just 5 lines of code
-
+# Trigger events from one component to another component
+# Ultra-light code, 200 Bytes, just 5 lines of code
 
 
-
-
+## EXAMPLE of Events.js
 
 ### TRIGGERRING FROM COMPONENT A
 
