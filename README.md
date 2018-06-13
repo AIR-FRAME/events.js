@@ -2,12 +2,12 @@
 # Trigger multiple events from one component to another components in any direction
 # Ultra-light code, ~400 bytes and 15 lines of code
 
-### Subscribe to the events
+### Subscribing to the events
 ```js
 Events.bind('eventname', myFunction);
 ```
 
-### Trigger the subscribed events
+### Triggering the subscribed events
 ```js
 Events.trigger('eventname');
 ```
