@@ -1,2 +1,5 @@
 # EVENTS
-Trigger events from anywhere
+Trigger events from one component to another component
+
+
+
