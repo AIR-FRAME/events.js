@@ -1,5 +1,8 @@
-# EXAMPLE of Events.js (Ultralight, just 5 lines of code)
-Trigger events from one component to another component
+# EXAMPLE of Events.js
+
+## Trigger events from one component to another component
+## Ultralight, just 5 lines of code
+
 
 ## TRIGGERRING FROM COMPONENT A
 
