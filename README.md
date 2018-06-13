@@ -4,12 +4,12 @@
 
 ### Subscribe to the events
 ```js
-Events.bind('showdata', this.fnFetchData);
+Events.bind('eventname', myFunction);
 ```
 
 ### Trigger the subscribed events
 ```js
-Events.trigger('showdata');
+Events.trigger('eventname');
 ```
 
 
