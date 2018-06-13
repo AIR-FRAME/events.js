@@ -7,11 +7,9 @@
 
 ### TRIGGERRING FROM COMPONENT A
 
-```html
-import Events from './events.js';
-```
-
 ```js
+import Events from './events.js';
+
 componentDidMount = () => {
    Events.bind('showdata', this.fnFetchData);
 };
@@ -22,11 +20,9 @@ componentDidMount = () => {
 
 ### TRIGGERED AT COMPONENT B
 
-```html
-import Events from './events.js';
-```
-
 ```js
+import Events from './events.js';
+
 showData = (key) => {
    Events.trigger('showdata');
 }
