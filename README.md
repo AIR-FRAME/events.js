@@ -1,5 +1,5 @@
 
-# Trigger multiple events from one component to another component
+# Trigger multiple events from one component to another components in any direction
 # Ultra-light code, 300 Bytes, just 12 lines of code
 
 
