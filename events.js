@@ -1,3 +1,5 @@
+//Author: Bobby Thomas (bobtxt@gmail.com)
+
 var Events = function(){};
 
 Events._events = [];
