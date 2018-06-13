@@ -2,6 +2,17 @@
 # Trigger multiple events from one component to another components in any direction
 # Ultra-light code, 300 Bytes, just 12 lines of code
 
+### Subscribe to the events
+```js
+Events.bind('showdata', this.fnFetchData);
+```
+
+### Trigger the subscribed events
+```js
+Events.trigger('showdata');
+```
+
+
 
 ## EXAMPLE of Events.js
 
