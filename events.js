@@ -1,8 +1,8 @@
-var Events	= function(){};
+var Events = function(){};
 
 Events._events = [];
 Events.bind = function(eventName, callBack){
-   Events._events.push({ "eventname": eventName, "callback": callBack } );
+   Events._events.push( { "eventname": eventName, "callback": callBack } );
 }
 
 Events.trigger = function(eventName){	
@@ -13,5 +13,5 @@ Events.trigger = function(eventName){
 }
 
 if( typeof module !== "undefined" && ('exports' in module)){
-   module.exports	= Events;
+   module.exports = Events;
 }
