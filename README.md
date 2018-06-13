@@ -16,8 +16,8 @@ Events.trigger('clientChange');
 ```js
 import Events from './events.js';
 componentDidMount = () => {
-		Events.clientChange = function(){
-        console.log('triggered in component B);
+	Events.clientChange = function(){
+        console.log('triggered in component B');
     }
 };
 ```
