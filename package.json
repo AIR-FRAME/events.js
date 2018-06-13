@@ -1,0 +1,20 @@
+{
+  "name": "events.js",
+  "description": "Trigger multiple events from one component to another components in any direction",
+  "version": "1.0.0",
+  "main": "events.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AIR-FRAME/events.js.git"
+  },
+  "keywords": ["trigger", "events", "components", "multiple", "reactjs", "react", "javascript"],
+  "author": "Bobby Thomas (bobtxt@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AIR-FRAME/events.js/issues"
+  },
+  "homepage": "https://github.com/AIR-FRAME"
+}
