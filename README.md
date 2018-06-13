@@ -13,8 +13,8 @@ Events.trigger('eventname');
 ```
 
 
-
-## EXAMPLE of Events.js
+ 
+## React.js EXAMPLE for Events.js
 
 ### TRIGGER FROM COMPONENT A
 
