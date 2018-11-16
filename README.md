@@ -21,11 +21,7 @@ Events.trigger('eventname');
 ```js
 import Events from './events.js';
 
-showData = (key) => {
-   Events.trigger('PROJECTCHANGED');
-}
-
-<Button onClick={this.ShowData}>Project "Apple & Oranges"</Button>
+<Button onClick={ () => Events.trigger('PROJECTCHANGED') }>Project "Apple & Oranges"</Button>
 
 ```
 
