@@ -1,5 +1,5 @@
 
-# Trigger multiple events from one component to another components in any direction
+# Trigger event from one component and recieve at multiple components
 # Ultra-light code, ~400 bytes and 15 lines of code
 
 ### Subscribing to the events
