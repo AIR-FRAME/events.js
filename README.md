@@ -14,7 +14,7 @@ Events.trigger('eventname');
 
 
  
-## React.js EXAMPLE for Events.js
+## ReactJS EXAMPLE 
 
 ### TRIGGER FROM COMPONENT A
 
@@ -22,30 +22,33 @@ Events.trigger('eventname');
 import Events from './events.js';
 
 showData = (key) => {
-   Events.trigger('showdata');
+   Events.trigger('PROJECTCHANGED');
 }
 
-flashMessage = (key) => {
-   Events.trigger('flashmessage');
-}
+<Button onClick={this.ShowData}>Project "Apple & Oranges"</Button>
+
 ```
 
-### TRIGGERED AT COMPONENT B
+### RECEIVED AT COMPONENT B
 
 ```js
+
 import Events from './events.js';
 
 componentDidMount = () => {
-   Events.bind('showdata', this.fnFetchData);
+   Events.bind('PROJECTCHANGED', this.doSomething);
 };
+
 ```
 
-### TRIGGERED AT COMPONENT C
+### RECEIVED AT COMPONENT C
 
 ```js
+
 import Events from './events.js';
 
 componentDidMount = () => {
-   Events.bind('flashmessage', this.fnFlashMessage);
+   Events.bind('PROJECTCHANGED', this.doSomethingElse);
 };
+
 ```
